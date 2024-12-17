@@ -19,3 +19,24 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+input {
+  padding: 4px;
+  border-radius: 4px;
+  background-color: #444444;
+  color: white;
+}
+
+@keyframes showSubPage {
+  from {
+    top: 100%;
+  }
+  to {
+    top: 0;
+  }
+}
+
+.showSubPage {
+  animation: showSubPage;
+  animation-duration: 200ms;
+}
